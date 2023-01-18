@@ -24,7 +24,9 @@ const Total = ()=>{
   const [itemLayoutType, setItemLayoutType] = useState("labels");
   const [totalSection,setTotalSection] = useState(true)
 
-  const {setTotalData} = useContext(TemplateData)
+  //const {setTotalData} = useContext(TemplateData)
+
+ 
 
 
 

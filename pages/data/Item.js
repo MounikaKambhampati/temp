@@ -19,8 +19,8 @@ const ItemTable = ()=>{
     const [tableBorderFontColor,setTableBorderFontColor] = useState("#ffffff");
     const [tableHeaderColor,setTableHeaderColor] = useState("#ffffff");
     const [tableItemBorderColor,setTableItemBorderColor] = useState("#ffffff");
-    const {setItemTableData} = useContext(TemplateData)
-
+    //const {setItemTableData} = useContext(TemplateData)
+//alert("item")
     const onChangeData=()=>{
       let formData = form.getFieldsValue(true)
       form.setFieldsValue(formData)
@@ -30,7 +30,7 @@ const ItemTable = ()=>{
       setTableItemBorderColor(formData.tableItemBorderColorPicker)
       setTableItemFontColor(formData.tableItemFontColorPicker) 
       setTableItemDescriptionFontColor(formData.tableItemDescriptionFontColorPicker)
-      setItemTableData(formData)
+      //setItemTableData(formData)
     }
 
 

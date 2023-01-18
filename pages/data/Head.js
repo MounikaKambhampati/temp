@@ -23,7 +23,8 @@ const Header = ()=>{
   const [logoChecked,setLogoChecked] = useState(true)
   const [imageSize,setImageSize] = useState(false)
 
-  const {headerData,setHeaderData} = useContext(TemplateData);
+  const {setHeaderData} = useContext(TemplateData);
+  //console.log("head",headerData);
 
   const imageUploadStatusChange = (uploadStatus) => {
     // const fieldsToUpdate = {};

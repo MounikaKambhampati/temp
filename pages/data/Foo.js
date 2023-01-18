@@ -14,7 +14,7 @@ import { TemplateData } from "../index"
 
 const Footer = ()=>{
     const [form] = Form.useForm()
-    const {setFooterData} = useContext(TemplateData)
+    //const {setFooterData} = useContext(TemplateData)
 
 
     const onChangeData=()=>{

@@ -17,7 +17,7 @@ const TemplateProperties = ()=>{
     const [tempFontColor,setTempFontColor] = useState();
     const [isKey,setIsKey] = useState("0");
 
-    const {setTemplatePropertiesData} = useContext(TemplateData)
+    //const {setTemplatePropertiesData} = useContext(TemplateData)
 
     const onChangeData=(data)=>{ 
       let formData = form.getFieldsValue(true)
@@ -25,7 +25,7 @@ const TemplateProperties = ()=>{
       setTempBackgroundColor(formData.tempBackgroundColorPicker)
       setTempFontColor(formData.tempFontColorPicker)
       setTempLabelColor(formData.tempLabelColorPicker)
-      setTemplatePropertiesData(formData)
+     // setTemplatePropertiesData(formData)
       if(Object.keys(data)[0] === "tempBackgroundColorPicker"){
         form.setFieldsValue({
           tempBackgroundColor:data.tempBackgroundColorPicker,
