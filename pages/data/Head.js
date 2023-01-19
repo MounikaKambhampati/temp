@@ -23,7 +23,7 @@ const Header = ()=>{
   const [logoChecked,setLogoChecked] = useState(true)
   const [imageSize,setImageSize] = useState(false)
 
-  const {setHeaderData} = useContext(TemplateData);
+  //const {setHeaderData} = useContext(TemplateData);
   //console.log("head",headerData);
 
   const imageUploadStatusChange = (uploadStatus) => {
@@ -55,7 +55,7 @@ const Header = ()=>{
     })
   setHeaderNameColor(formData.headerNameColorPicker) 
   }
-  setHeaderData(formData)
+  //setHeaderData(formData)
   }
 
   const getOrgLogo =(e)=>{
